@@ -285,6 +285,8 @@
   }
   .gii-thiu-d-n-961-0,
   .a-im-thin-nguyn-3936-0 {
+    position: static;
+
     font-size: calc(80 * var(--ratio));
   
     line-height: calc(52 * var(--ratio));
