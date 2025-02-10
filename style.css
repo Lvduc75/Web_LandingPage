@@ -8,6 +8,12 @@
   .pos-abs {
     position: absolute;
   }
+  .pos-fixed {
+    position: fixed;
+    top: 20px;      /* Vị trí từ trên cùng */
+    left: 20px;     /* Vị trí từ bên trái */
+    z-index: 999;   /* Đảm bảo phần tử ở trên cùng nếu có các phần tử khác */
+}
   .fill-parent {
     width: 100%;
     height: 100%;
