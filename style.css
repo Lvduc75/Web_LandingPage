@@ -285,8 +285,6 @@
   }
   .gii-thiu-d-n-961-0,
   .a-im-thin-nguyn-3936-0 {
-    position: static;
-
     font-size: calc(80 * var(--ratio));
   
     line-height: calc(52 * var(--ratio));
@@ -904,4 +902,34 @@
 
 body {
     font-family: 'SVN-Gratelos Display', sans-serif;
+}
+
+/* 1. Cho thiết bị di động nhỏ */
+@media only screen and (max-width: 480px) {
+  /* Các thiết lập cho thiết bị di động nhỏ */
+}
+
+/* 2. Cho thiết bị di động lớn */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  /* Các thiết lập cho thiết bị di động lớn */
+}
+
+/* 3. Cho tablet */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Các thiết lập cho tablet */
+}
+
+/* 4. Cho tablet lớn hoặc laptop nhỏ */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* Các thiết lập cho tablet lớn hoặc laptop nhỏ */
+}
+
+/* 5. Cho màn hình desktop */
+@media only screen and (min-width: 1281px) {
+  /* Các thiết lập cho màn hình desktop */
+}
+
+/* 6. Cho màn hình Retina (độ phân giải cao) */
+@media only screen and (min-device-pixel-ratio: 2) {
+  /* Các thiết lập cho màn hình Retina */
 }
